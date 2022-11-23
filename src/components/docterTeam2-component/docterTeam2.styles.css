@@ -1,0 +1,16 @@
+.doc-desc{
+    text-align: justify;
+}
+
+.about-doc:hover {
+    background-color: #369569;
+}
+.about-doc:hover div{
+    background-color:rgb(233, 231, 231);
+}
+.about-doc:hover h5{
+    color: #369569;
+}
+.about-doc:hover .readmore-btn{
+    background-color: #369569;
+}

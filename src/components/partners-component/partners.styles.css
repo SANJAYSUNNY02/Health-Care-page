@@ -1,0 +1,10 @@
+.partner-img-container{
+    border-bottom: 2px solid;
+    border-color: grey;
+}
+
+.partner-img-container:hover{
+    background-color: rgb(198, 198, 198);
+    border-bottom: 3px solid;
+    border-color: #369569
+}

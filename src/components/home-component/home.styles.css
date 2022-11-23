@@ -1,0 +1,18 @@
+.service-booking{
+    background-color: #e8e8e8;
+}
+.para-text{
+    text-align: justify;
+}
+.typeService-box:hover {
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+}
+
+.typeService-box:hover h5{
+    color: #198754;
+}
+.typeService-box:hover Button{
+    background-color: #198754;
+    color: white;
+}

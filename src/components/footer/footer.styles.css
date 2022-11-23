@@ -1,0 +1,14 @@
+.post-image{
+    width: 80px;
+    height: 80px;
+}
+
+.post-para{
+    margin-left: 10px;
+    text-align:start;
+    font-size: x-small;
+}
+.tweet-para{
+    margin-left: 10px;
+    background-color: rgba(213, 213, 213, 0.603);
+}

@@ -1,0 +1,21 @@
+.doctorCarousel{
+    background-color: #198754;
+}
+.para-text{
+    text-align: justify;
+}
+.caurosel-buttons{
+    background-color: rgb(255, 255, 255);
+}
+.slick-arrow.slick-prev{
+    display: none !important;
+}
+.slick-arrow.slick-next{
+    display: none !important;
+}
+
+.d-t-1{
+    margin: auto;
+    width: 200px;
+    height: 400px;
+}
