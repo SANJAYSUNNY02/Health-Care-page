@@ -71,7 +71,7 @@ const Testimonial = () => {
       <div>
         <h4 className="text-success">Happy Patients</h4>
 
-        <div className="" style={{ margin: 30 }}>
+        <div className="testimonial-container">
           <Slider
             {...settings}
             className="border-bottom border-success border-3 bg-light"

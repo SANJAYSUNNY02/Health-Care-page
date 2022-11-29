@@ -55,27 +55,12 @@ const DocterTeam2 = () => {
   return (
     <div className="my-5 border-bottom">
       <div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            padding: "0 10px",
-          }}
-        >
-          <h4 className="text-success">Our Team</h4>
-        </div>
-        <div className="" style={{ margin: 30 }}>
+        <h4 className="text-success">Our Team</h4>
+
+        <div className="slider-container">
           <Slider {...settings} className="mb-0">
             <div className="about-doc text-center py-1 mx-2">
-              <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
-                src={docter1}
-                alt="shubham img"
-              />
+              <img className="img-container" src={docter1} alt="shubham img" />
               <div className="border-top py-2 px-2 ">
                 <h5>Dr. Shubham</h5>
                 <p className="doc-desc">
@@ -91,11 +76,7 @@ const DocterTeam2 = () => {
             </div>
             <div className="about-doc text-center  py-1 mx-2">
               <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
+                className="img-container"
                 src={docter2}
                 alt="yashwanth img"
               />
@@ -113,15 +94,7 @@ const DocterTeam2 = () => {
               </div>
             </div>
             <div className="about-doc text-center  py-1 mx-2">
-              <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
-                src={docter3}
-                alt="Ruth img"
-              />
+              <img className="img-container" src={docter3} alt="Ruth img" />
               <div className="py-2 px-2 border-top">
                 <h5>Dr. Ruth</h5>
                 <p className="doc-desc">
@@ -136,15 +109,7 @@ const DocterTeam2 = () => {
               </div>
             </div>
             <div className="about-doc text-center py-1 mx-2">
-              <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
-                src={docter4}
-                alt="sanjay img"
-              />
+              <img className="img-container" src={docter4} alt="sanjay img" />
               <div className="py-2 px-2 border-top">
                 <h5>Dr. Sanjay</h5>
                 <p className="doc-desc">
@@ -159,15 +124,7 @@ const DocterTeam2 = () => {
               </div>
             </div>
             <div className="about-doc text-center py-1 mx-2">
-              <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
-                src={docter5}
-                alt="varun img"
-              />
+              <img className="img-container" src={docter5} alt="varun img" />
               <div className="py-2 px-2 border-top">
                 <h5>Dr. Varun</h5>
                 <p className="doc-desc">
@@ -183,11 +140,7 @@ const DocterTeam2 = () => {
             </div>
             <div className="about-doc text-center  py-1 mx-2">
               <img
-                className=""
-                style={{
-                  width: 310,
-                  objectFit: "contain",
-                }}
+                className="img-container"
                 src={docter6}
                 alt="sheershika img"
               />

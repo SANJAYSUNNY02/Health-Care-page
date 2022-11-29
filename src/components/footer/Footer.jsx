@@ -10,6 +10,11 @@ import docter7 from "../../assets/Docters/docter7.png";
 
 import "./footer.styles.css";
 
+function onLinkClick(e) {
+  e.preventDefault();
+  // further processing happens here
+}
+
 const BottomFooter = () => {
   return (
     <MDBFooter
@@ -22,22 +27,22 @@ const BottomFooter = () => {
         </div>
 
         <div>
-          <a href="#1" className="me-4 text-reset">
+          <a href="#1" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="facebook-f" />
           </a>
-          <a href="#!" className="me-4 text-reset">
+          <a href="#!" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="twitter" />
           </a>
-          <a href="#!" className="me-4 text-reset">
+          <a href="#!" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="google" />
           </a>
-          <a href="#!" className="me-4 text-reset">
+          <a href="#!" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="instagram" />
           </a>
-          <a href="#!" className="me-4 text-reset">
+          <a href="#!" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="linkedin" />
           </a>
-          <a href="#!" className="me-4 text-reset">
+          <a href="#!" className="me-4 text-reset" onClick={onLinkClick}>
             <MDBIcon color="light" fab icon="github" />
           </a>
         </div>
@@ -81,7 +86,7 @@ const BottomFooter = () => {
               className="mx-auto mb-md-0 mb-4 text-center"
             >
               <h6 className="text-uppercase fw-bold mb-4">Recent Posts</h6>
-              <div className="d-flex justify-content-center">
+              <div className="post-container d-flex justify-content-center">
                 <img className="post-image " src={docter7} alt="post" />
                 <p className="post-para">
                   <h6>POST 1 HEADING</h6>
@@ -89,7 +94,7 @@ const BottomFooter = () => {
                   <p>Post 22 Nov 2022</p>
                 </p>
               </div>
-              <div className="d-flex justify-content-center">
+              <div className="post-container d-flex justify-content-center">
                 <img className="post-image " src={docter7} alt="post" />
                 <p className="post-para">
                   <h6>POST 1 HEADING</h6>
@@ -97,7 +102,7 @@ const BottomFooter = () => {
                   <p>Post 22 Nov 2022</p>
                 </p>
               </div>
-              <div className="d-flex justify-content-center">
+              <div className="post-container d-flex justify-content-center">
                 <img className="post-image " src={docter7} alt="post" />
                 <p className="post-para">
                   <h6>POST 1 HEADING</h6>
@@ -140,12 +145,13 @@ const BottomFooter = () => {
         </MDBContainer>
       </section>
 
-      <div
-        className="text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-      >
+      <div className="footer-bg text-center p-4">
         © 2021 Copyright:
-        <a className="text-reset fw-bold" href="/#">
+        <a
+          className="text-reset fw-bold"
+          href="#copyrights"
+          onClick={onLinkClick}
+        >
           Health Care Hospitals
         </a>
       </div>

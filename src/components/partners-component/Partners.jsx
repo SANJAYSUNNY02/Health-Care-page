@@ -60,7 +60,7 @@ const Partners = () => {
         <div>
           <h4 className="text-success">Meet Our Partners</h4>
         </div>
-        <div className="" style={{ margin: 30 }}>
+        <div className="partner-container">
           <Slider {...settings} className="mb-0">
             <div className="partner-img-container px-2 py-2 mx-3">
               <img src={P1} alt="" />

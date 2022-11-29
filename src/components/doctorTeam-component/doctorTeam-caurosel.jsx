@@ -66,22 +66,22 @@ const DocterTeamCaurosel = () => {
         </div>
         <Slider {...settings}>
           <div>
-            <img className="d-t-1" src={docter1} alt="First slide" />
+            <img className="docter-image" src={docter1} alt="First slide" />
           </div>
           <div>
-            <img className="d-t-1" src={docter2} alt="First slide" />
+            <img className="docter-image" src={docter2} alt="First slide" />
           </div>
           <div>
-            <img className="d-t-1" src={docter3} alt="First slide" />
+            <img className="docter-image" src={docter3} alt="First slide" />
           </div>
           <div>
-            <img className="d-t-1" src={docter4} alt="First slide" />
+            <img className="docter-image" src={docter4} alt="First slide" />
           </div>
           <div>
-            <img className="d-t-1" src={docter5} alt="First slide" />
+            <img className="docter-image" src={docter5} alt="First slide" />
           </div>
           <div>
-            <img className="d-t-1" src={docter6} alt="First slide" />
+            <img className="docter-image" src={docter6} alt="First slide" />
           </div>
         </Slider>
       </Container>

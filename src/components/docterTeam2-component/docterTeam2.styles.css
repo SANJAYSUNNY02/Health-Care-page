@@ -1,3 +1,12 @@
+.slider-container{
+    margin: 30px;
+}
+.img-container{
+    width: 310px;
+    height: 300px;
+    text-align: center;
+    /* objectFit: "contain"; */
+}
 .doc-desc{
     text-align: justify;
 }
